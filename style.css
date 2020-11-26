@@ -1,0 +1,35 @@
+html, body {
+  animation: fadeInAnimation ease 6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+#container {
+  width: 100%;
+  height: 100%;
+}
+section {
+  text-align:justify;
+  margin:0px;
+  font-size: 2.2em;
+  font-family: 'Thasadith', sans-serif;
+  color:#999d9e;
+  position: fixed;
+  top:50%;
+  bottom:50%;
+  left:50%;
+  right:50%;
+  width: 450px;
+  height: 60px;
+}

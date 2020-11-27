@@ -1,0 +1,107 @@
+html, body {
+  font-size: 40px;
+  font-family: 'Thasadith', sans-serif;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;}
+    80% {
+        opacity: 1;
+     }
+}
+
+#button_holder{
+  display:none;
+}
+
+.button_handler{
+  display: flex;
+  position: absolute;
+  left:84%;
+  top:90%;
+  margin:0px;
+  padding:0px;
+  border:0px;
+}
+
+a{
+position: relative;
+ font-family: sans-serif;
+ text-transform: uppercase;
+ font-size: 0.2em;
+ letter-spacing: 3px;
+ overflow: hidden;
+ background: linear-gradient(9deg, #000, #fff, #000);
+ background-repeat: no-repeat;
+ background-size: 50%;
+ animation: animate 3s linear infinite;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -300%;
+  }
+  100% {
+    background-position: 200%;
+  }
+}
+
+a:hover{
+  transform: translateY(-3px);
+  -webkit-transform: translateY(-3px);
+}
+
+.btn {
+  opacity:.1;
+  position: relative;
+  margin-right: 0px;
+  display: inline-block;
+  min-width: 3rem;
+  background: black;
+  color: white;
+  line-height: .1;
+  padding-bottom: 0.3em;
+  border: 0;
+  text-align: center;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 50px 0 0 #FFFFFFFF;
+  -moz-box-shadow: 0 3px 0 0 #FFFFFFFF;
+  box-shadow: 0 5px 0 0 #FFFFFFFF;
+  transition: all .2s ease;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+}
+.btn:hover, .btn:focus {
+  opacity:1;
+  color: white;
+  -webkit-box-shadow: 0 6px 0 0 #FFFFFFFF;
+  -moz-box-shadow: 0 6px 0 0 #FFFFFFFF;
+  box-shadow: 0 6px 0 0 #FFFFFFFF;
+  transform: translateY(-3px);
+  -webkit-transform: translateY(-3px);
+}
+
+.btn:active {
+  background: #969997;
+  -webkit-box-shadow: 0 0 0 0 #969997;
+  -moz-box-shadow: 0 0 0 0 #969997;
+  box-shadow: 0 0 0 0 #969997;
+  transform: translateY(3px);
+  -webkit-transform: translateY(3px);
+}

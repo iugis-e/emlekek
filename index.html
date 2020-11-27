@@ -10,34 +10,44 @@
 		<script src="./src/three.min.js"></script>
 		<script src="./src/photo-sphere-viewer.min.js"></script>
 		<script src="./src/jquery-3.5.1.min.js"></script>
+		<script>
+		$(document).ready(function(){
+			$("#cim_holder").delay(100).fadeIn(12);
+			$("#button_holder").delay(13500).fadeIn(12);
+			setInterval(function(){
+			$("section").delay(700).fadeToggle(6000);
+			$("#button_holder").delay(700).fadeIn(1200);
+					}, 10);
+			});
+		</script>
 	</head>
 
 	<body>
-		<div id="container"></div>
+			<div id="container"></div>
+			<div id="button_holder">
+				<div class="button_handler">
+				<div class="btn"><a href="#">remember</a></div>
+				</div>
+			</div>
 		<script>
 			var div = document.getElementById('container');
 			var PSV = new PhotoSphereViewer({
 					//panorama: 'https://miro.medium.com/max/2560/1*BaZPg3SRgZGVigguQCmirA.png',
-					panorama: 'https://i.imgur.com/T8qnsHD.png',
-					//panorama: 'https://i.imgur.com/T47s0RH.jpg',
+					//panorama: 'https://i.imgur.com/T8qnsHD.png',
+					panorama: 'https://i.imgur.com/o4i7GAj.jpg',
 					//panorama: 'https://i.imgur.com/2i12lPV.jpg',
 					container: div,
 					time_anim: 0,
 					navbar: true,
 					navbar_style: {
-						backgroundColor: 'rgba(58, 67, 77, 0.7)'
+						backgroundColor: 'rgba(58, 67, 77, 0.3)'
 					},
 				});
 		</script>
-		<script>
-				$(document).ready(function(){
-					setInterval(function(){
-						$("section").fadeToggle(4000);
-						}, 0);
-					});
-				</script>
-		<section>you're about to enter the memories of person-<span id=demo></span>
-		</section>
+		<div id="cim_holder">
+			<section id="cim">you're about to enter the memories of <br>person-<span id=demo></span>
+			</section>
+		</div>
 		<script>
 			function myFunction(){
 			var r = Math.random().toString(36).substring(7);
@@ -45,8 +55,8 @@
 			}
 			myFunction()
 			</script>
-		<audio controls autoplay>
-			<source src="Risingson.mp3" type="audio/mp3">
+		<audio autoplay loop>
+			<source src="./sound/open.mp3" type="audio/mp3">
 		</audio>
 	</body>
 </html>

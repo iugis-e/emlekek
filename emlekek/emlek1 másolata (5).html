@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="initial-scale=1.0"/>
+		<title>emlékek</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Thasadith&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./emlekek.css"/>
+		<script src="../src/three.min.js"></script>
+		<script src="../src/photo-sphere-viewer.min.js"></script>
+		<script src="../src/jquery-3.5.1.min.js"></script>
+		<script id="megjelenik">
+		$(document).ready(function(){
+			$("#button_holder").delay(13500).fadeIn(1200);
+				setInterval(function(){
+					$("#button_holder").delay(7000).fadeIn(1200);}, 10);
+			});
+		</script>
+	</head>
+
+	<body>
+		<audio autoplay loop>
+			<source src="../sound/1.mp3" type="audio/mp3">
+		</audio>
+		<div id="container"></div>
+		<!-- <audio id="katt">
+			<source src="../sound/click.mp3" type="audio/mp3">
+		</audio>
+		<button onclick="playAudio" type:"button">-->
+		<div id="button_holder">
+			<div class="btn">
+				<a href="emlek2.html" target="_top">forget</a>
+			</div>
+		</div>
+		<!--</button>-->
+	<!--	<script>
+			var x = document.getElementById("#katt");
+			function playAudio(){
+				x.play();}
+		</script> -->
+		<script id="mozgokep">
+		 	var div = document.getElementById('container');
+			var PSV = new PhotoSphereViewer({
+					//panorama: 'https://miro.medium.com/max/2560/1*BaZPg3SRgZGVigguQCmirA.png',
+					//panorama: 'https://i.imgur.com/T8qnsHD.png',
+					//panorama: 'https://i.imgur.com/o4i7GAj.jpg',
+					panorama: 'https://i.imgur.com/Ewr05kc.jpg',
+					container: div,
+					time_anim: 0,
+					navbar: true,
+					navbar_style: {
+						backgroundColor: 'rgba(58, 67, 77, 0.3)'
+					},
+				});
+		</script>
+	</body>
+</html>

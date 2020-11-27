@@ -27,8 +27,8 @@
 		</audio>
 		<div id="container"></div>
 		<div id="button_holder">
-				<div class="button_handler">
-					<div class="btn"><a href="./emlekek/emlek1.html" target="_top">remember</a></div>
+			<div class="btn">
+				<a href="./emlekek/emlek1.html" target="_top">remember</a>
 			</div>
 		</div>
 	<!--	<script>
@@ -37,7 +37,16 @@
 			$("#button_holder").fadeOut(100);},)
 });
 	</script> -->
-		<script id="mozgokep">
+			<div id="cim_holder">
+				<section id="cim">you're about to enter the memories of <br>person-<span id=demo></span></section>
+			</div>
+			<script id="randomgenerator">
+				function myFunction(){
+				var r = Math.random().toString(36).substring(7);
+				document.getElementById("demo").innerHTML = r;}
+				myFunction()
+			</script>
+			<script id="mozgokep">
 		 	var div = document.getElementById('container');
 			var PSV = new PhotoSphereViewer({
 				/*var arrayImg = new Array();
@@ -52,10 +61,7 @@
 					    var imgStr = '<img src="' + path + img + '" alt = "">';
 					    document.write(imgStr); document.close();
 					}*/
-					//panorama: 'https://miro.medium.com/max/2560/1*BaZPg3SRgZGVigguQCmirA.png',
-					//panorama: 'https://i.imgur.com/T8qnsHD.png',
-					panorama: 'https://i.imgur.com/o4i7GAj.jpg',
-					//panorama: 'https://i.imgur.com/2i12lPV.jpg',
+					panorama: '../images/1.jpg',
 					container: div,
 					time_anim: 0,
 					navbar: true,
@@ -64,16 +70,5 @@
 					},
 				});
 		</script>
-		<div id="cim_holder">
-			<section id="cim">you're about to enter the memories of <br>person-<span id=demo></span>
-			</section>
-		</div>
-		<script id="randomgenerator">
-			function myFunction(){
-			var r = Math.random().toString(36).substring(7);
-			document.getElementById("demo").innerHTML = r;
-			}
-			myFunction()
-			</script>
 	</body>
 </html>

@@ -25,16 +25,18 @@
 
 	<body>
 		<div id="audio_holder">
-			<audio id="audio_homepage" autoplay="autoplay" loop="loop">
+			<audio id="audio_homepage" loop>
 				<source src="./sound/open0.mp3" type="audio/mp3">
 			</audio>
-			<audio id="audio_homepage2" autoplay loop>
+			<audio id="audio_homepage2" loop>
 				<source src="./sound/heartbeat.mp3" type="audio/mp3">
 			</audio>
 			<script>
-				var vid = document.getElementById("audio_homepage2");
+				var myaudio = document.getElementById("audio_homepage").autoplay = true;
+				var myaudio2 = document.getElementById("audio_homepage").autoplay = true;
+				var myaudio = document.getElementById("audio_homepage2");
 					function setPlaySpeed() {
-	  			vid.playbackRate = .734;}
+	  			myaudio.playbackRate = .734;}
 					setPlaySpeed();
 			</script>
 		</div>

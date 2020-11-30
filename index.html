@@ -1,84 +1,31 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8"/>
-		<meta name="viewport" content="initial-scale=1.0"/>
-		<title>emlékek</title>
-		<link rel="preconnect" href="https://fonts.gstatic.com">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0"/>
+    <title>hahó</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Thasadith&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="./style.css"/>
-		<script src="./src/three.min.js"></script>
-		<script src="./src/photo-sphere-viewer.min.js"></script>
-		<script src="./src/jquery-3.5.1.min.js"></script>
-		<script id="megjelenik">
+    <script id="megjelenik">
 		$(document).ready(function(){
-			$("#cim_holder").delay(5000).fadeIn(5000);
-			$("#button_holder").delay(30000).fadeIn(12);
-			//$("#button_holder").delay(43800).fadeIn(12);
-			//$("#button_holder").delay(0).fadeIn(12);
+			$("#first").delay(1000).fadeIn(5);
+			$("#second").delay(1500).fadeIn(5);
+			$("#third").delay(2000).fadeIn(5);
+			$("#fourth").delay(2500).fadeIn(5);
+			$("#button_holder").delay(1000).fadeIn(12);
 				setInterval(function(){
-					$("section").delay(700).fadeToggle(6000);
-					$("#button_holder").delay(700).fadeIn(1200);}, 10);
+					$("#text_holder").delay(700).fadeToggle(6000);});
 			});
 		</script>
-	</head>
-
-	<body>
-		<div id="audio_holder">
-			<audio id="audio_homepage" preload="auto" autoplay loop>
-				<source src="./sound/open0.mp3" type="audio/mp3">
-			</audio>
-			<audio id="audio_homepage2" praload="auto" autoplay loop>
-				<source src="./sound/heartbeat.mp3" type="audio/mp3">
-			</audio>
-			<script>
-				var myaudio2 = document.getElementById("audio_homepage2");
-					function setPlaySpeed() {
-	  			myaudio2.playbackRate = .734;}
-					setPlaySpeed()
-			</script>
-
-		<!--	<script>
-			Howler.autoUnlock = false;
-			var sound = new Howl({
-				src: ['./sound/open0.mp3'],
-				onplayerror: function() {
-    		sound.once('unlock', function() {
-      	sound.play();
-    		});
-  			}
-				});
-				sound.play();
-			</script>-->
-		</div>
-		<div id="video_holder">
-			<video id="video_homepage" width="100%" height="100%" autoplay="autoplay" muted loop>
-			  <source src="./videos/open00.mp4" type="video/mp4">
-			</video>
-			<script>
-				var vid = document.getElementById("video_homepage");
-					function setPlaySpeed() {
-	  			vid.playbackRate = 3;}
-					setPlaySpeed();
-					/*function enableAutoplay() {
-  				vid.autoplay = true;
-  				vid.load();
-				}*/
-			</script>
-		</div>
-		<div id="button_holder">
-			<div class="btn">
-				<a href="./emlekek/emlek0.html" target="_top">I understood the risks,<br>let<br>me<br>in</a>
-			</div>
-		</div>
-		<div id="cim_holder">
-				<section id="cim">you're about to enter the memories of <br>person-<span id=demo></span></section>
-				<script id="randomgenerator">
-					function myFunction(){
-					var r = Math.random().toString(36).substring(7);
-					document.getElementById("demo").innerHTML = r;}
-					myFunction();
-				</script>
-		</div>
-	</body>
+  <body>
+    <div id="canvas_holder">
+      <canvas id="canvas"></canvas>
+    </div>
+<script type="text/javascript" src="./script.js"></script>
+<div id="button_holder">
+  <a href="./index1.html" target="_top">enter</a>
+</div>
+<p>emlékháló</p>
+  </body>
 </html>

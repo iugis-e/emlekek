@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="initial-scale=1.0"/>
+		<title>emlékek</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Thasadith&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./style1.css"/>
+		<script src="./src/three.min.js"></script>
+		<script src="./src/photo-sphere-viewer.min.js"></script>
+		<script src="./src/jquery-3.5.1.min.js"></script>
+		<script id="megjelenik">
+		$(document).ready(function(){
+			$("#cim_holder").delay(5000).fadeIn(5000);
+			$("#button_holder").delay(30000).fadeIn(12);
+			//$("#button_holder").delay(43800).fadeIn(12);
+			//$("#button_holder").delay(0).fadeIn(12);
+				setInterval(function(){
+					$("section").delay(700).fadeToggle(6000);
+					$("#button_holder").delay(700).fadeIn(1200);}, 10);
+			});
+		</script>
+	</head>
+
+	<body>
+		<div id="audio_holder">
+			<audio id="audio_homepage" preload="auto" autoplay loop>
+				<source src="./sound/open0.mp3" type="audio/mp3">
+			</audio>
+		</div>
+		<div id="video_holder">
+			<video id="video_homepage" autoplay="autoplay" muted loop>
+			  <source src="./videos/0.mp4" type="video/mp4">
+			</video>
+			<script>
+				var vid = document.getElementById("video_homepage");
+					function setPlaySpeed() {
+	  			vid.playbackRate = 1;}
+					setPlaySpeed();
+					/*function enableAutoplay() {
+  				vid.autoplay = true;
+  				vid.load();
+				}*/
+			</script>
+		</div>
+		<div id="button_holder">
+			<div class="btn">
+				<a href="./emlekek/emlek00.html" target="_top">I understood the risks,<br>let<br>me<br>in</a>
+			</div>
+		</div>
+		<div id="cim_holder">
+				<section id="cim">you're about to enter the memories of <br>person-<span id=demo></span></section>
+				<script id="randomgenerator">
+					function myFunction(){
+					var r = Math.random().toString(36).substring(7);
+					document.getElementById("demo").innerHTML = r;}
+					myFunction();
+				</script>
+		</div>
+	</body>
+</html>

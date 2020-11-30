@@ -7,21 +7,6 @@ A világ átfogó és main mottója:
 emberiség külső energiaforrás reményében indul útnak az Iugis-E nevű bolygóra."
 
 --------------CONCEPT-----------------------------------------------------------
-(1)
-Iugis-E bolygó a jövő magvait küldi el a hátrahagyott földi népnek,
-amelyek az égből hullva érkeznek és a mindennapi, utópisztikus élet hangjai
-vannak beléjük karistolva. Hogy jobban eltudják képzelni milyen is az átlagos
-élet az ígiszen, a magvak a beléjük karcolt hangfájl lejátszásakor absztrakt
-audiovizuális performanszban kelnek életre, amelynek során egy hologram-szerű
-vetítővé változnak.
-
-(1.1)
-A magvakat a születéskorlátozás megszegése által kitoloncolt családok viszik a
-Földre. Örökké náluk maradó emlékek a kis bogyók, amelyek mindig emlékeztetni
-fogják őket arra, hogy mit is veszítettek helytelen cselekedeteik miatt.
-A magvak a beléjük karcolt hangfájl lejátszásakor absztrakt audiovizuális
-performanszban kelnek életre, amelynek során egy hologram-szerű vetítővé
-változnak.
 
 EZEKNEK AZ AR MAGVAKNAK/HANGOKNAK MAGA A KÉPI SÍK LESZ A CSOMAGOLÁSA.
 
@@ -29,22 +14,52 @@ AZ ÁTLAGEMBER MEMÓRIÁJA AMIT A MAGBA ZÁRVA VISZ MAGÁVAL ÉS A MAG EZT VETÍ
 KI A HANGOKKAL EGYÜTT.
 
 a honlap maga egy "átlagember" memória foszlányaiból áll össze
-
 a hangok és a képek az emlékei
-
 születéskor az elmével szinkronizált magvak
 
-az a main concept h egy fiktív device ami rögzíti az emberi emlékeket és a halál beálltakor lejátsza mindet,
  és erre buildelem ezt a siteot ahova >>uplaodolja a device<<, mint egy jövőbeli temetési ceremónia amin keresztül gyakorlatilag
- "belezuhansz" ezekbe a leélt élet emlékeibe
+ "belezuhansz" 
 
-egy átlagember memóriájába csöppensz és ilyen immerzív epxerienceként átéled a múltját
---------------DESCRIPTION-------------------------------------------------------
-(2)
-A világ átlag mindennapi hangjait fogom felvenni, majd ehez egy (vagy több) 
-"csomagolást tervezni" egy fiktív, ezeket a hangokat lejátszó
-eszköz(ök)nek(=magvak), és az eszközök által létrehozott szürreális kivetülésnek
-(=3d renderek a világ sajátosságaival(<<NEM mozgókép, és NEM vj szerű).
+Miért átlagos valami? Mert sok van belőle, mert értéktelen, mert mindenki számára hozzáférhető? 
+Az átlagos az unalmas, az átlagos az egyszerű, az átlagos képtelen változásra, statikusan rezeg ugyanazon a változatlan képi síkon.
+Az átlagosság egy szóval kifejezve: maga a ciklikusság, a monotonitás, a kilátástalanság,a  statikusság, az ismétlődés,
+ismétlődő folyamatok, események, képek, és hangok szüntelen katyvasza. 
+Születés, munka, ünnepek, mindennapok, feledés, halál.
+De leginkább: maga az életút mint legemberibb és egyben legátlagosabb tényező amit kiragadnék, a folytonosság energiája, amit sugároz magából
+és amely egészen ijesztő tud lenni az ember számára.
+
+Oké szóval rájöttünk az átlagosság titkára, 
+azonban ezt az friss tudást magunkévá téve egy újabb akadály előtt téblábolunk:
+
+Igen ám, de akkor mitől értékes valami? 
+Vagy méginkább:mitől különleges valami? 
+Mert kevés van belőle, mert a birtoklása az ember számára erőfeszítésbe kerül, ami értékkel ruházza fel.
+Vagy mert úgy gondoljuk mi vagyunk az egyetlenek akik számára értéket jelent, aminek következtében az "anti-érték" teszi értékessé.
+
+Az efféle értékek fiktív valóságának tébolyában egyértelművé válik számomra hogy az >>érték mértékét<<,
+vagy az >>átlagosság fogalmát<< csakis a mi szubjektív szemléleteink határozzák meg, ergo az értékes amit értékkel ruházunk fel. (és ugyanez visszafelé).
+
+Valahol minden és mindenki különbözik,  és nincs két azonos atom, sejt, bármi az univerzumban, ergo hogyan lehetne valami átlagos, ha közben ilyen iszonyatosan egyedi?
+
+Az átlagosság számomra egy olyan zaj amely mindennap körülvesz bennünket elterelve a figyelmünket a mindennapok apró dolgainak szűntelen csodálásától.
+Az általunk átlagosnak vélt történetek azonban tele vannak szépséggel, és puritánsággal, meg amolyan érinthetetlenséggel. Például egy átlagos délután a strandon, a parkban, a mekiben. Nem grandiózus, nem robbanásszerű... De közben azt hiszem nagyon sok benne a szép.
+
+Az én alapkoncepcióm egy olyan fiktív futurista device képzelete volt, amely a leélt emberi életek átlag mindennapjainak emlékeit rögzíti,
+Az eszköz a saját belsejében a CIKLIKUSSÁG és a SZIMPLICITÁS által átlagossá váló ÉLETUTAK apró MOMENTUMAIT ÉS ESEMÉNYEIT tárolja videók, képek, hangok és hologramok formájában.
+
+A device maga minden szempontból átlagos hiszen MINDEN iugis-e lakos BIRTOKOL egyet, amely SZÜLETÉSkor automata szibkronizálja az elméjük a saját mazdarjuk adatbankjával.
+A halál beálltakor a kis mag visszajátsza az élet során rögzült emlékeket majd megsemmisül, ezáltal egy új szürreális keretet adva az átlagos mindennapok emlékeinek.
+
+Szóval alapvetően megterveztem ez a kis magvat és a 
+
+Továbbvittem ezt a szálat, és elképzeltem h milyenek ezek a emlékek milyen átlagos, mindennapi emlékfoszlányokat tárolhat a mazdar és létrehoztam ennek az audiovizuális kivetülését
+amin keresztül egy átlagember memóriájába csöppensz és ilyen immerzív epxerienceként átéled a múltját.
+
+terveztem egy csomagolást , ám aztán annyira beleéltem magam, h bolondos hangulatomban leprogramoztam egy honlapot és egy virtuáls valóságot is
+Aa
+
+
+
 
 --------------DETAILS-----------------------------------------------------------
 (3)
